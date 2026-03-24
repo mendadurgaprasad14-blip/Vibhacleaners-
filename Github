@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <title>Vibha Cleaners - Home & Services</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        header { background: #004a99; color: white; padding: 20px; text-align: center; }
+        .container { padding: 20px; max-width: 1000px; margin: auto; }
+        .card-container { display: flex; gap: 20px; flex-wrap: wrap; }
+        .card { border: 1px solid #ddd; padding: 15px; width: 200px; text-align: center; border-radius: 8px; }
+        .booking-form { background: #f9f9f9; padding: 30px; border-radius: 10px; margin-top: 30px; }
+        input, select, button { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+        button { background-color: #28a745; color: white; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vibha Cleaners</h1>
+    <p>Quality Products | Expert Services</p>
+</header>
+
+<div class="container">
+    <h2>మా ప్రొడక్ట్స్ (Shop Now)</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="floor_cleaner.jpg" alt="Floor Cleaner" width="100">
+            <h3>Floor Cleaner</h3>
+            <p>₹199</p>
+            <button>Add to Cart</button>
+        </div>
+        </div>
+
+    <div class="booking-form">
+        <h2>సర్వీస్ బుకింగ్ / ఆర్డర్ ఫామ్</h2>
+        <form action="mailto:mendadurgaprasad14@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Name" placeholder="మీ పేరు" required>
+            <input type="tel" name="Phone" placeholder="ఫోన్ నంబర్" required>
+            <select name="ServiceType">
+                <option value="Product Purchase">ప్రొడక్ట్ కొనుగోలు</option>
+                <option value="House Keeping">హౌస్ కీపింగ్ సర్వీస్</option>
+                <option value="Deep Cleaning">డీప్ క్లీనింగ్</option>
+            </select>
+            <textarea name="Address" placeholder="మీ చిరునామా" rows="4" style="width:100%;"></textarea>
+            <button type="submit">ఇప్పుడే బుక్ చేయండి</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
